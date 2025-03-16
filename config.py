@@ -7,10 +7,10 @@ logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %
 
 # Google Sheets API setup
 SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
-SPREADSHEET_ID = '1y56bOATGzEmlZVMfir7WB2QHs32iyKh7fK5g4FuewJI'
+SPREADSHEET_ID = 'your spreadsheet id'
 RANGE_NAME = 'Sheet1!A:B'
 CHECK_RANGE = 'Sheet1!A:A'
-CREDENTIALS_FILE = 'asthra-participant-list-55acad99e49d.json'
+CREDENTIALS_FILE = 'your_api_key.json'
 
 # Configuration
 ROI_X, ROI_Y = 645, 130
